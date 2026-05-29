@@ -1,4 +1,5 @@
 .env
+.venv/
 vectordb/
 __pycache__/
 *.pyc
