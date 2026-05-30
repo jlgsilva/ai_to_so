@@ -8,7 +8,7 @@ Todas as evidências foram coletadas a partir da URL pública:
 
 ## 01 — Interface Inicial
 
-**Arquivo:** `01_interface_inicial.png`
+![Interface Inicial](01_interface_inicial.png)
 
 Exibe a interface do AgroAssist IA carregada com sucesso no Streamlit Cloud,
 com mensagem de boas-vindas personalizada, painel de exemplos de perguntas
@@ -18,9 +18,9 @@ expandido e aviso legal no rodapé.
 
 ## 02 — Dúvida Geral: PSR
 
-**Arquivo:** `02_duvida_geral_PSR.png`
-
 **Pergunta:** *"O que é o PSR e quem tem direito à subvenção?"*
+
+![Dúvida Geral PSR](02_duvida_geral_PSR.png)
 
 O assistente recuperou contexto do **Guia dos Seguros Rurais (CNA/MAPA)** e do
 **Estudo Técnico sobre Seguro Rural no Mundo**, explicando que o PSR foi
@@ -34,9 +34,9 @@ cadastral do produtor e à disponibilidade de recursos orçamentários.
 
 ## 03 — PROAGRO vs Seguro Agrícola Privado
 
-**Arquivo:** `03_proagro_resolucao_bacen.png`
-
 **Pergunta:** *"Qual a diferença entre o PROAGRO e o seguro agrícola privado?"*
+
+![PROAGRO vs Seguro Privado](03_proagro_resolucao_bacen.png)
 
 Resposta baseada em fontes regulatórias e técnicas, diferenciando os dois
 instrumentos em 5 dimensões: financiamento (público vs. privado), custo,
@@ -49,9 +49,9 @@ O assistente recuperou contexto de 5 fontes distintas simultaneamente.
 
 ## 04 — Fluxo Guiado de Sinistro
 
-**Arquivo:** `04_fluxo_sinistro_guiado.png`
-
 **Pergunta:** *"Perdi minha lavoura de soja por granizo ontem. O que devo fazer?"*
+
+![Fluxo Guiado de Sinistro](04_fluxo_sinistro_guiado.png)
 
 O classificador de intenção identificou o evento como sinistro e ativou o fluxo
 guiado. O assistente orientou o produtor em 5 passos estruturados: verificação
@@ -65,9 +65,9 @@ criticidade do prazo de comunicação.
 
 ## 05 — Guardrail: Pergunta Fora do Escopo
 
-**Arquivo:** `05_guardrail_fora_escopo.png`
-
 **Pergunta:** *"Quero fazer um seguro de carro, quanto custa?"*
+
+![Guardrail Fora de Escopo](05_guardrail_fora_escopo.png)
 
 O guardrail funcionou corretamente: o assistente recusou responder sobre seguro
 de automóvel, explicou seu escopo especializado em seguros agrícolas e rurais,
@@ -81,9 +81,9 @@ seguros de automóvel e que nenhuma resposta foi inventada.
 
 ## 06 — Resposta com Múltiplas Fontes
 
-**Arquivo:** `06_multiplas_fontes.png`
-
 **Pergunta:** *"Quais são os requisitos para um perito realizar vistoria de sinistro agrícola?"*
+
+![Resposta com Múltiplas Fontes](06_multiplas_fontes.png)
 
 Resposta baseada no **Manual de Capacitação de Peritos Rurais**, detalhando:
 gestão de capacidade em períodos concentrados de colheita, esclarecimento de
@@ -96,9 +96,9 @@ mecanizada e procedimentos em caso de discordância sobre a metodologia.
 
 ## 07 — Crédito Rural e Obrigatoriedade do Seguro
 
-**Arquivo:** `07_credito_rural_seguro_obrigatorio.png`
-
 **Pergunta:** *"O seguro é obrigatório quando contrato um financiamento rural pelo Pronaf?"*
+
+![Crédito Rural e Obrigatoriedade](07_credito_rural_seguro_obrigatorio.png)
 
 O assistente confirmou a obrigatoriedade do seguro de custeio no Pronaf,
 orientando o produtor a verificar as condições específicas do financiamento
@@ -110,7 +110,7 @@ e as exigências da linha de crédito contratada.
 
 ## 08 — Repositório GitHub
 
-**Arquivo:** `08_repositorio_github.png`
+![Repositório GitHub](08_repositorio_github.png)
 
 Estrutura completa do projeto versionada no GitHub (`jlgsilva/ai_to_so`),
 com organização profissional das pastas (`dados/`, `scripts/`, `vectordb/`,

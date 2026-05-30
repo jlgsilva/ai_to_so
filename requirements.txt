@@ -9,3 +9,6 @@ sentence-transformers
 groq
 pypdf
 python-dotenv
+fpdf2
+Pillow
+ 

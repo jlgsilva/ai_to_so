@@ -3,6 +3,8 @@
 __pycache__/
 *.pyc
 
+_fonts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
