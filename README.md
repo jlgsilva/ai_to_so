@@ -334,7 +334,7 @@ streamlit run app.py
 
 Desenvolvido por **Jefferson L. G. Silva** como atividade prática do programa
 **InsurMinds | Inteligência Artificial Aplicada a Seguros**
-I2A2 – Instituto de Inteligência Artificial Aplicada · Latin Re · Grupo FIT
+I2A2 – Instituto de Inteligência Artificial Aplicada
 
 ---
 
